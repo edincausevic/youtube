@@ -1,0 +1,57 @@
+// COMMAND PROMPT - cmd
+
+
+// Navigation
+
+> cd <directory-name> 
+> cd <directory-name>/<directory-name>
+> cd C:\<directory-name>\<directory-name>
+> cd D:
+
+> cd ..
+> cd ../..
+> cd /
+
+// Open directories
+
+> dir <directory-name>
+> dir C:\<directory-name>
+> dir D:
+
+// Create and remove directories
+
+> mkdir <directory-name>
+> rmdir <directory-name>
+> rmdir /s <directory-name> 
+
+// Create and remove files
+
+> copy nul <file-name>
+> del <file-name>
+
+// Open files
+
+> <file-name> 
+> D:\<directory-name>\<file-name> 
+
+// Rename files
+
+> rename <file-name>.txt <new-file-name>.txt
+> ren <file-name>.txt <new-file-name>.html
+
+// Copy and move files
+
+> copy <file-name> <destination-directory-name>
+> xcopy <file-name> D:\<destination-directory-name>
+> xcopy /s <file-name> <destination-directory-name>
+> move <file-name> <destination-directory-name>
+
+// Copy & Paste to cmd
+
+Ctrl + C // copy
+Ctrl + V // paste
+
+
+shutdown /s /t 7200 // shut down in 2h
+shutdown /s         // stop shut down process
+cls - clear screen
